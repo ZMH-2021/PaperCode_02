@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "node_type": 2,
+        "has_traffic_light": true,
+        "rsu_ids": [
+            101,
+            102
+        ],
+        "drone_ids": [
+            201
+        ]
+    },
+    {
+        "id": 2,
+        "node_type": 1,
+        "has_traffic_light": false,
+        "rsu_ids": [
+            103
+        ],
+        "drone_ids": [
+            202,
+            203
+        ]
+    },
+    {
+        "id": 3,
+        "node_type": 0,
+        "has_traffic_light": true,
+        "rsu_ids": [
+            104
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 4,
+        "node_type": 1,
+        "has_traffic_light": false,
+        "rsu_ids": [
+            101,
+            104
+        ],
+        "drone_ids": [
+            204
+        ]
+    },
+    {
+        "id": 5,
+        "node_type": 0,
+        "has_traffic_light": true,
+        "rsu_ids": [
+            102
+        ],
+        "drone_ids": [
+            205
+        ]
+    },
+    {
+        "id": 6,
+        "node_type": 1,
+        "has_traffic_light": false,
+        "rsu_ids": [
+            103,
+            104
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 7,
+        "node_type": 0,
+        "has_traffic_light": true,
+        "rsu_ids": [
+            101
+        ],
+        "drone_ids": [
+            203,
+            205
+        ]
+    },
+    {
+        "id": 8,
+        "node_type": 1,
+        "has_traffic_light": false,
+        "rsu_ids": [
+            102
+        ],
+        "drone_ids": [
+            201,
+            204
+        ]
+    },
+    {
+        "id": 9,
+        "node_type": 0,
+        "has_traffic_light": true,
+        "rsu_ids": [
+            104
+        ],
+        "drone_ids": [
+            202,
+            203
+        ]
+    },
+    {
+        "id": 10,
+        "node_type": 1,
+        "has_traffic_light": false,
+        "rsu_ids": [
+            101,
+            103
+        ],
+        "drone_ids": [
+            204,
+            205
+        ]
+    }
+]
