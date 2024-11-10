@@ -9,7 +9,7 @@ def copy_json_files(src_folder, dest_folder):
 
     参数:
     src_folder (str): 源文件夹路径。
-    dest_folder (str): 目标文件夹路径。
+    dest_folder (str): 目标文件夹路径。11111
     """
     # 检查目标文件夹是否存在，如果不存在则创建
     if not os.path.exists(dest_folder):
