@@ -541,4 +541,5 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 高层和低层策略需要协同优化，以实现整体系统的最优性能。数学上，这可以通过联合优化高层和低层策略来实现：
 
+```
 \max_{\pi^{high}, \pi^{low}} \mathbb{E}_{\pi^{high}, \pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t (R_t^{high} + R_t^{low}) \right]
