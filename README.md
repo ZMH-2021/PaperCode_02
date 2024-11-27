@@ -384,7 +384,7 @@ $$
 
 优化目标是最大化长期累积奖励，即：
 
-\max_{\pi} \mathbb{E}_\pi \left[\sum_{t=0}^\infty \gamma^t R_t\right]
+$\max_{\pi} \mathbb{E}_\pi \left[\sum_{t=0}^\infty \gamma^t R_t\right]$
 
 * $\pi$：任务分配策略，定义为在观测 $o_t$ 下选择动作 $a_t$ 的概率分布。
 
