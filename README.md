@@ -526,9 +526,9 @@ $$
 
 高层策略需要决定每辆车的任务分配比例 $a_t^{high}$，目标是最大化全局累积奖励。高层的优化目标可以表示为：
 
-$$
-\max_{\pi^{high}} \mathbb{E}_{\pi^{high}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{high} \right]
-$$
+
+$\max_{\pi^{high}} \mathbb{E}_{\pi^{high}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{high} \right]$
+
 
 其中：
 
@@ -539,9 +539,9 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 低层策略根据高层分配的任务比例 $w_k$ 执行具体动作，目标是最大化局部累积奖励。低层的优化目标可以表示为：
 
-$$
-\max_{\pi^{low}} \mathbb{E}_{\pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{low} \right]
-$$
+
+$\max_{\pi^{low}} \mathbb{E}_{\pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{low} \right]$
+
 
 其中：
 
@@ -552,7 +552,6 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 高层和低层策略需要协同优化，以实现整体系统的最优性能。数学上，这可以通过联合优化高层和低层策略来实现：
 
-$$
-\max_{\pi^{high}, \pi^{low}} \mathbb{E}_{\pi^{high}, \pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t (R_t^{high} + R_t^{low}) \right]
-$$
+
+$\max_{\pi^{high}, \pi^{low}} \mathbb{E}_{\pi^{high}, \pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t (R_t^{high} + R_t^{low}) \right]$
 
