@@ -491,28 +491,23 @@ $R_t^{low} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)$
 
 **输入**：所有车辆和RSU的状态信息，如任务生成速率、RSU的负载、网络带宽等。
 
-```math
 S_t^{high} = \left\{ \sum_{i=1}^M V_{i,t}, \sum_{j=1}^N R_{j,t}, \sum_{i=1}^M \sum_{j=1}^N \text{Net}_{(i,j),t} \right\}
 
 **动作**：为每辆车分配任务卸载比例向量 $a_t^{high} = [w_1, w_2, \dots, w_K]$，其中 $w_k$ 表示任务分配给RSU $k$ 的比例。
 **奖励**：基于全局系统性能，即总延时和总能耗。
 
-```math
 R_t^{high} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)
-
 
 #### 3 **.3.2 低层策略：具体任务执行**
 
 **输入**：自身的局部状态 $S_t^{low}$ 和高层分配的任务比例 $w_k$。
 
-```math
 S_t^{low} = \{V_{t},\{R_{k,t},Net_{k,t}\}\mid 
 k\in\mathcal{K}\}
 
 **动作**：执行具体的传输和计算策略，如调整传输速率 $r_t$、选择传输路径 $p_t$ 等。
 **奖励**：基于自身执行效果，即实际延时和能耗。
 
-```math
 R_t^{low} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)
 
 ---
@@ -523,9 +518,7 @@ R_t^{low} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)
 
 高层策略需要决定每辆车的任务分配比例 $a_t^{high}$，目标是最大化全局累积奖励。高层的优化目标可以表示为：
 
-```math
 \max_{\pi^{high}} \mathbb{E}_{\pi^{high}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{high} \right]
-
 
 其中：
 
@@ -549,5 +542,4 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 高层和低层策略需要协同优化，以实现整体系统的最优性能。数学上，这可以通过联合优化高层和低层策略来实现：
 
-```math
 \max_{\pi^{high}, \pi^{low}} \mathbb{E}_{\pi^{high}, \pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t (R_t^{high} + R_t^{low}) \right]
