@@ -384,7 +384,7 @@ $$
 
 优化目标是最大化长期累积奖励，即：
 ```math
-\[ \max_{\pi} \mathbb{E}_\pi \left[\sum_{t=0}^\infty \gamma^t R_t\right] \]
+\max_{\pi} \mathbb{E}_\pi \left[\sum_{t=0}^\infty \gamma^t R_t\right]
 ```
 * $\pi$：任务分配策略，定义为在观测 $o_t$ 下选择动作 $a_t$ 的概率分布。
 
@@ -459,10 +459,13 @@ $$
 确保高层和低层智能体之间的有效通信：
 
 * **高层到低层**：高层智能体将任务分配比例传递给各低层智能体。  
-$a_t^{high} = [w_1, w_2, \dots, w_K]$
-* **低层到高层**：低层智能体将执行结果（如实际延时、能耗）反馈给高层智能体，用于策略的进一步优化。  
-$R_t^{low} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)$
-
+```math
+a_t^{high} = [w_1, w_2, \dots, w_K]
+```
+* **低层到高层**：低层智能体将执行结果（如实际延时、能耗）反馈给高层智能体，用于策略的进一步优化。
+```
+R_t^{low} = \alpha \cdot R_T(T_{\text{total}}) + \beta \cdot R_E(E)
+```
 ---
 
 ### 3 **. 数学模型**
