@@ -1,6 +1,331 @@
-{
-  "name": "data",
-  "version": "1.0.0",
-  "dependencies": {
+[
+  {
+    "id": 1,
+    "node1": 1,
+    "node2": 5,
+    "length": 10
+  },
+  {
+    "id": 2,
+    "node1": 2,
+    "node2": 5,
+    "length": 10
+  },
+  {
+    "id": 3,
+    "node1": 5,
+    "node2": 6,
+    "length": 10
+  },
+  {
+    "id": 4,
+    "node1": 6,
+    "node2": 7,
+    "length": 10
+  },
+  {
+    "id": 5,
+    "node1": 3,
+    "node2": 7,
+    "length": 10
+  },
+  {
+    "id": 6,
+    "node1": 7,
+    "node2": 8,
+    "length": 10
+  },
+  {
+    "id": 7,
+    "node1": 4,
+    "node2": 8,
+    "length": 10
+  },
+  {
+    "id": 8,
+    "node1": 5,
+    "node2": 9,
+    "length": 10
+  },
+  {
+    "id": 9,
+    "node1": 6,
+    "node2": 10,
+    "length": 10
+  },{
+    "id": 10,
+    "node1": 7,
+    "node2": 11,
+    "length": 10
+  },
+  {
+    "id": 11,
+    "node1": 9,
+    "node2": 10,
+    "length": 10
+  },
+  {
+    "id": 12,
+    "node1": 10,
+    "node2": 11,
+    "length": 10
+  },
+  {
+    "id": 13,
+    "node1": 9,
+    "node2": 12,
+    "length": 10
+  },
+  {
+    "id": 14,
+    "node1": 10,
+    "node2": 13,
+    "length": 10
+  },
+  {
+    "id": 15,
+    "node1": 11,
+    "node2": 14,
+    "length": 10
+  },
+  {
+    "id": 16,
+    "node1": 12,
+    "node2": 33,
+    "length": 10
+  },
+  {
+    "id": 17,
+    "node1": 12,
+    "node2": 13,
+    "length": 10
+  },
+  {
+    "id": 18,
+    "node1": 13,
+    "node2": 14,
+    "length": 10
+  },
+  {
+    "id": 19,
+    "node1": 14,
+    "node2": 15,
+    "length": 10
+  },
+  {
+    "id": 20,
+    "node1": 15,
+    "node2": 8,
+    "length": 10
+  },
+  {
+    "id": 21,
+    "node1": 12,
+    "node2": 16,
+    "length": 10
+  },
+  {
+    "id": 22,
+    "node1": 13,
+    "node2": 17,
+    "length": 10
+  },
+  {
+    "id": 23,
+    "node1": 14,
+    "node2": 18,
+    "length": 10
+  },
+  {
+    "id": 24,
+    "node1": 15,
+    "node2": 20,
+    "length": 10
+  },
+  {
+    "id": 25,
+    "node1": 5,
+    "node2": 21,
+    "length": 10
+  },
+  {
+    "id": 26,
+    "node1": 16,
+    "node2": 17,
+    "length": 10
+  },
+  {
+    "id": 27,
+    "node1": 17,
+    "node2": 18,
+    "length": 10
+  },
+  {
+    "id": 28,
+    "node1": 18,
+    "node2": 19,
+    "length": 10
+  },
+  {
+    "id": 29,
+    "node1": 19,
+    "node2": 20,
+    "length": 10
+  },
+  {
+    "id": 30,
+    "node1": 20,
+    "node2": 21,
+    "length": 10
+  },
+  {
+    "id": 31,
+    "node1": 16,
+    "node2": 22,
+    "length": 10
+  },
+  {
+    "id": 32,
+    "node1": 17,
+    "node2": 23,
+    "length": 10
+  },
+  {
+    "id": 33,
+    "node1": 18,
+    "node2": 24,
+    "length": 10
+  },
+  {
+    "id": 34,
+    "node1": 19,
+    "node2": 25,
+    "length": 10
+  },
+  {
+    "id": 35,
+    "node1": 20,
+    "node2": 26,
+    "length": 10
+  },
+  {
+    "id": 36,
+    "node1": 21,
+    "node2": 27,
+    "length": 10
+  },
+  {
+    "id": 37,
+    "node1": 22,
+    "node2": 23,
+    "length": 10
+  },
+  {
+    "id": 38,
+    "node1": 23,
+    "node2": 24,
+    "length": 10
+  },
+  {
+    "id": 39,
+    "node1": 24,
+    "node2": 25,
+    "length": 10
+  },
+  {
+    "id": 40,
+    "node1": 25,
+    "node2": 26,
+    "length": 10
+  },
+  {
+    "id": 41,
+    "node1": 26,
+    "node2": 27,
+    "length": 10
+  },
+  {
+    "id": 42,
+    "node1": 22,
+    "node2": 28,
+    "length": 10
+  },
+  {
+    "id": 43,
+    "node1": 23,
+    "node2": 29,
+    "length": 10
+  },
+  {
+    "id": 44,
+    "node1": 24,
+    "node2": 30,
+    "length": 10
+  },
+  {
+    "id": 45,
+    "node1": 26,
+    "node2": 31,
+    "length": 10
+  },
+  {
+    "id": 46,
+    "node1": 27,
+    "node2": 32,
+    "length": 10
+  },
+  {
+    "id": 47,
+    "node1": 28,
+    "node2": 34,
+    "length": 10
+  },
+  {
+    "id": 48,
+    "node1": 28,
+    "node2": 29,
+    "length": 10
+  },
+  {
+    "id": 49,
+    "node1": 29,
+    "node2": 30,
+    "length": 10
+  },
+  {
+    "id": 50,
+    "node1": 30,
+    "node2": 31,
+    "length": 10
+  },
+  {
+    "id": 51,
+    "node1": 31,
+    "node2": 32,
+    "length": 10
+  },
+  {
+    "id": 52,
+    "node1": 32,
+    "node2": 36,
+    "length": 10
+  },
+  {
+    "id": 53,
+    "node1": 28,
+    "node2": 35,
+    "length": 10
+  },
+  {
+    "id": 54,
+    "node1": 30,
+    "node2": 35,
+    "length": 10
+  },
+  {
+    "id": 55,
+    "node1": 31,
+    "node2": 35,
+    "length": 10
   }
-}
+]
