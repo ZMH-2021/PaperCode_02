@@ -531,7 +531,7 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 ```math
 \max_{\pi^{low}} \mathbb{E}_{\pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{low} \right]
-
+```
 
 其中：
 
