@@ -73,13 +73,13 @@ T_{\text{contention}} = E[N] \cdot T_{\text{slot}}
 $$
   
   其中：
-$$
-T_{\text{slot}} = P_{\text{idle}} \cdot T_{\text{idle}} + P_c \cdot T_{\text{collision}} + P_s \cdot T_{\text{success}}
-$$
+  
+ $T_{\text{slot}} = P_{\text{idle}} \cdot T_{\text{idle}} + P_c \cdot T_{\text{collision}} + P_s \cdot T_{\text{success}}$
+ 
 - **数据传输时延**：
-$$
-T_{\text{transmission}} = \frac{L}{C}
-$$
+ $$
+ T_{\text{transmission}} = \frac{L}{C}
+ $$
 
 ### 参数含义
 
