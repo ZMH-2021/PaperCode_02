@@ -1,3 +1,15 @@
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 # 一、拓扑图
 道路拓扑图实际取景于天津市意大利风情旅游区周边道路。在该道路拓扑图中，设定4个分布于左侧的入口和4个分布于右侧的出口，使车辆的整体行驶方向为从左到右。选路范围涵盖了多条主要通行路线，车辆在进入后可以根据当前交通状况选择最佳路径。
 
@@ -35,7 +47,7 @@
 
 # 二、排队时延、传输时延、计算时延
 
-## 1. 排队时延  $$ T_q $$
+## 1. 排队时延  $ T_q $
 
 ### 定义
 
