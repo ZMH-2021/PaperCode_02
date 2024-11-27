@@ -529,7 +529,6 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 低层策略根据高层分配的任务比例 $w_k$ 执行具体动作，目标是最大化局部累积奖励。低层的优化目标可以表示为：
 
-```math
 \max_{\pi^{low}} \mathbb{E}_{\pi^{low}} \left[ \sum_{t=0}^\infty \gamma^t R_t^{low} \right]
 
 
