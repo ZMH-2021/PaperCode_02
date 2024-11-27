@@ -1,117 +1,347 @@
 [
     {
         "id": 1,
-        "node_type": 2,
-        "has_traffic_light": true,
-        "rsu_ids": [
-            101,
-            102
-        ],
-        "drone_ids": [
-            201
-        ]
+        "position": [1,1],
+        "node_type": 1,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
     },
     {
         "id": 2,
+        "position": [1,1],
         "node_type": 1,
-        "has_traffic_light": false,
-        "rsu_ids": [
-            103
-        ],
-        "drone_ids": [
-            202,
-            203
-        ]
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
     },
     {
         "id": 3,
-        "node_type": 0,
-        "has_traffic_light": true,
-        "rsu_ids": [
-            104
-        ],
+        "position": [1,1],
+        "node_type": 1,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
         "drone_ids": []
     },
     {
         "id": 4,
+        "position": [1,1],
         "node_type": 1,
-        "has_traffic_light": false,
-        "rsu_ids": [
-            101,
-            104
-        ],
-        "drone_ids": [
-            204
-        ]
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
     },
     {
         "id": 5,
-        "node_type": 0,
-        "has_traffic_light": true,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 1,
         "rsu_ids": [
-            102
+            1,
+            3
         ],
         "drone_ids": [
-            205
+            1
         ]
     },
     {
         "id": 6,
-        "node_type": 1,
-        "has_traffic_light": false,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
         "rsu_ids": [
-            103,
-            104
+            1
         ],
         "drone_ids": []
     },
     {
         "id": 7,
-        "node_type": 0,
-        "has_traffic_light": true,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 2,
         "rsu_ids": [
-            101
+            2
         ],
         "drone_ids": [
-            203,
-            205
+            1
         ]
     },
     {
         "id": 8,
-        "node_type": 1,
-        "has_traffic_light": false,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 3,
         "rsu_ids": [
-            102
+            2
         ],
         "drone_ids": [
-            201,
-            204
+            2
         ]
     },
     {
         "id": 9,
-        "node_type": 0,
-        "has_traffic_light": true,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
         "rsu_ids": [
-            104
+            3
         ],
-        "drone_ids": [
-            202,
-            203
-        ]
+        "drone_ids": []
     },
     {
         "id": 10,
-        "node_type": 1,
-        "has_traffic_light": false,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 11,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
         "rsu_ids": [
-            101,
-            103
+            4
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 12,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 4,
+        "rsu_ids": [
+            5
         ],
         "drone_ids": [
-            204,
-            205
+            3
         ]
+    },
+    {
+        "id": 13,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 5,
+        "rsu_ids": [
+            5
+        ],
+        "drone_ids": [
+            3
+        ]
+    },
+    {
+        "id": 14,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            4
+        ],
+        "drone_ids": []
+    },{
+        "id": 15,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 16,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            7
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 17,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 18,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 6,
+        "rsu_ids": [
+            8
+        ],
+        "drone_ids": [
+            4
+        ]
+    },
+    {
+        "id": 19,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 20,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 7,
+        "rsu_ids": [
+            9
+        ],
+        "drone_ids": [
+            2
+        ]
+    },{
+        "id": 21,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            6
+        ],
+        "drone_ids": [ ]
+    },
+    {
+        "id": 22,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            7
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 23,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },{
+        "id": 24,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            8
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 25,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 26,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 8,
+        "rsu_ids": [
+            9
+        ],
+        "drone_ids": [
+            5
+        ]
+    },{
+        "id": 27,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            10
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 28,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 9,
+        "rsu_ids": [],
+        "drone_ids": [
+            6
+        ]
+    },
+    {
+        "id": 29,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },{
+        "id": 30,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 10,
+        "rsu_ids": [
+            12
+        ],
+        "drone_ids": [
+            6
+        ]
+    },
+    {
+        "id": 31,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 32,
+        "position": [1,1],
+        "node_type": 3,
+        "traffic_light_node": 11,
+        "rsu_ids": [],
+        "drone_ids": [
+            5
+        ]
+    },
+    {
+        "id": 33,
+        "position": [1,1],
+        "node_type": 2,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 34,
+        "position": [1,1],
+        "node_type": 2,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
+    },
+    {
+        "id": 35,
+        "position": [1,1],
+        "node_type": 2,
+        "traffic_light_node": 0,
+        "rsu_ids": [
+            11,
+            12
+        ],
+        "drone_ids": []
+    },
+    {
+        "id": 36,
+        "position": [1,1],
+        "node_type": 2,
+        "traffic_light_node": 0,
+        "rsu_ids": [],
+        "drone_ids": []
     }
 ]

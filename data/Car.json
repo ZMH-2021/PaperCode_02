@@ -1,6 +1,82 @@
-{
-  "name": "data",
-  "version": "1.0.0",
-  "dependencies": {
+[
+  {
+    "id": 1,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 2,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 3,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 4,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 5,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 6,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 7,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
+  },
+  {
+    "id": 8,
+    "offload_probability": 0.5,
+    "latency_requirement": 0.1,
+    "position": [1,1],
+    "speed": 20,
+    "entry_node": 1,
+    "exit_node": 35,
+    "edge_id": 3
   }
-}
+]

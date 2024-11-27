@@ -1,6 +1,100 @@
-{
-  "name": "data",
-  "version": "1.0.0",
-  "dependencies": {
+[
+  {
+    "id": 1,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 2,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 3,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 4,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 5,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 6,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 7,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 8,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },{
+    "id": 9,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 10,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
+  },
+  {
+    "id": 11,
+    "current_state": 1,
+    "remaining_time": 5,
+    "durations": [
+      10,
+      10
+    ]
   }
-}
+]

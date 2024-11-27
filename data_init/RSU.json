@@ -1,6 +1,62 @@
-{
-  "name": "data",
-  "version": "1.0.0",
-  "dependencies": {
+[
+  {
+    "id": 1,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 2,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 3,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 4,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 5,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 6,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 7,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 8,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 9,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 10,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 11,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
+  },
+  {
+    "id": 12,
+    "computation_capacity": 10,
+    "concurrency_capacity": 2
   }
-}
+]
