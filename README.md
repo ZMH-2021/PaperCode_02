@@ -59,28 +59,24 @@ $T_q = \frac{\lambda \cdot E[S^2]}{2 \cdot (1 - \lambda \cdot E[S])}$
 
 ### 公式
 
-$$
-T_{\text{tra}} = T_{\text{pro}} + T_{\text{contention}} + T_{\text{transmission}}
-$$
+$T_{\text{tra}} = T_{\text{pro}} + T_{\text{contention}} + T_{\text{transmission}}$
 
 - **信道传播时延**：
-$$
-T_{\text{pro}} = \frac{d}{v}
-$$
+
+$T_{\text{pro}} = \frac{d}{v}$
+
 - **网络争用时延**：
-$$
-T_{\text{contention}} = E[N] \cdot T_{\text{slot}}
-$$
-  
+
+$T_{\text{contention}} = E[N] \cdot T_{\text{slot}}$
+
   其中：
   
  $T_{\text{slot}} = P_{\text{idle}} \cdot T_{\text{idle}} + P_c \cdot T_{\text{collision}} + P_s \cdot T_{\text{success}}$
  
 - **数据传输时延**：
- $$
- T_{\text{transmission}} = \frac{L}{C}
- $$
-
+ 
+ $T_{\text{transmission}} = \frac{L}{C}$
+ 
 ### 参数含义
 
 1. **信道传播时延 $T_{\text{pro}}$**：
