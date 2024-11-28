@@ -556,6 +556,41 @@ $\gamma \in [0,1]$ 是折扣因子。
 
 ## 1. **流程图**
 
+<img src="./others/png图/ecc.png" alt="ECC流程图" style="width: 50%; height: auto;" />
+<img src="./others/png图/eccmax.png" alt="ECC流程图" style="width: 50%; height: auto;" />
 
+**这两张图你自己选一个**
+
+## 2. **算法实现**
+
+### 密钥生成
+
+$$
+Q=xP
+$$
+
+其中：
+* $P$ 为椭圆曲线 $E_p(a,b)$ 上的一个阶为n（大素数）的生成元。
+* $x$ 为私钥，范围为[1,n]。
+* $Q$ 为公钥。
+
+### 加密实现
+
+$$
+c= (C_1,C_2) = (k \cdot P, M + k \cdot Q)
+$$
+
+其中：
+
+* $c$ 是密文。
+* $k$ 是随机选取的一个整数，范围为[1,n]。
+* $M$ 是明文。
+### 解密实现
+
+$$
+M = M+k\cdot x\cdot P - x\cdot k\cdot P = M +k\cdot Q-x\cdot k\cdot P =C_2 - x\cdot C_1
+$$
+
+**上边解密的数值变换如果你懂了就直接删去，留最后一个就行**
 
 
